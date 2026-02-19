@@ -49,7 +49,7 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 with st.container():
     c1, c2 = st.columns([0.18, 0.82], vertical_alignment="center")
     with c1:
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/National_Center_for_Advancing_Translational_Sciences_logo.png/250px-National_Center_for_Advancing_Translational_Sciences_logo.png", caption=None, use_container_width=True)
+        st.image("assets/dmpk_core_logo.png", caption=None, use_container_width=True)
     with c2:
         st.markdown(
             '<div class="header">'
